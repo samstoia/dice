@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>dice</title>
+  </head>
+  <body>
+  <div class="container">
+
+
+  <div class="row">
+  <div class="col-md-4">
+    <h1>Player 1</h1>
+
+    <button id="rollPlayerOne" class="btn btn-primary">Roll (player 1)</button><br>
+    <button id="storePlayerOne" class="btn btn-primary">Add to Score / End Turn</button><br>
+    <span id="p1turnTotal"></span>
+  </div>
+  <div class="col-md-4">
+    <h1>Play Pig Dice</h1>
+
+    <span id="result"></span>
+
+  </div>
+  <div class="col-md-4">
+    <h1>Player 2</h1>
+    <button id="rollPlayerTwo" class="btn btn-primary">Roll (player 2)</button><br>
+    <button id="storePlayerTwo" class="btn btn-primary">Add to Score / End Turn</button><br>
+    <span id="p2turnTotal"></span>
+  </div>
+  </div>
+
+  <div class="row">
+  <div class="col-md-12">
+    Scores <br>
+
+    Player 1: <p id="playerOneScore"></p>
+
+    Player 2: <span id="playerTwoScore"></span>
+
+  </div>
+  </div>
+
+  </div>
+  </body>
+</html>

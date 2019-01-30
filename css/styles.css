@@ -1,0 +1,17 @@
+body {
+  background-color:#ccc;
+}
+#score {
+  text-align:center;
+}
+#result {
+  text-align:center;
+  font-size:32px;
+  font-weight:bold;
+}
+.row {
+  text-align:center;
+}
+button {
+  margin:6px;
+}
