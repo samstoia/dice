@@ -25,6 +25,7 @@ $("#rollPlayerOne").click(function(){
     else {
       $("#result").html(0);
       $("#p1turnTotal").html(0);
+      p1score = 0;
       document.getElementById("rollPlayerOne").disabled = true;
       document.getElementById("storePlayerOne").disabled = true;
       document.getElementById("rollPlayerTwo").disabled = false;
@@ -69,6 +70,7 @@ $("#storePlayerOne").click(function() {
   else {
     $("#result").html(0);
     $("#p2turnTotal").html(0);
+    p2score = 0;
     document.getElementById("rollPlayerTwo").disabled = true;
     document.getElementById("storePlayerTwo").disabled = true;
     document.getElementById("rollPlayerOne").disabled = false;

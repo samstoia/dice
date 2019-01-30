@@ -10,10 +10,8 @@ Below is a sample of inputs and outputs the website can handle.
 * Sample Output: Dice rolls between a 1 and 6
 * Sample Input: Player Rolls a one
 * Sample Output: Player loses points for that turn
-* Sample Input: Player Adds points from turn 
-* Sample Output: Player receives from their turn total
-
-
+* Sample Input: Player Adds points from turn
+* Sample Output: Points get added to total
 
 ## Setup and Use
 
