@@ -1,7 +1,13 @@
-var dice = function() {
-    var randomNumber = Math.floor(Math.random() * 6) + 1;
-    return randomNumber;
-  }
+import $ from 'jquery';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
+
+// var dice = function() {
+//     var randomNumber = Math.floor(Math.random() * 6) + 1;
+//     return randomNumber;
+//   }
+import { dice } from './../src/dice.js';
 
 
 
@@ -98,6 +104,4 @@ $("#storePlayerOne").click(function() {
     location.reload();
     }
   });
-
-
 });
