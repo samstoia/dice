@@ -1,31 +1,21 @@
 {
   "name": "dice",
   "version": "1.0.0",
-  "description": "This JavaScript game is a race to 100.  Two players take turns rolling dice, looking to be the first to get to triple digits.  But look out!  If you roll a one before you bank your points, you lose your turn and lose it all.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start karma.conf.js",
     "build": "webpack --mode development",
-    "start": "npm run build; webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open",
+    "test": "node ./node_modules/karma/bin/karma start karma.conf.js",
     "lint": "eslint src/*.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samstoia/dice.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/samstoia/dice/issues"
-  },
-  "homepage": "https://github.com/samstoia/dice#readme",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jQuery": "^1.7.4",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
-    "webpack": "4.19.1"
+    "jquery": "^3.2.1",
+    "popper.js": "^1.14.7"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.18",
@@ -45,6 +35,7 @@
     "karma-webpack": "^2.0.13",
     "style-loader": "^0.20.2",
     "uglifyjs-webpack-plugin": "^1.2.2",
+    "webpack": "^4.19.1",
     "webpack-cli": "^2.0.9",
     "webpack-dev-server": "^3.1.0"
   }
